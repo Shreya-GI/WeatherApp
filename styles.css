@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+}
+h1{
+    text-align:center;
+    margin:80px;
+    color:white;
+}
+.container
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:60vh;
+}
+
+.back-imag {
+    background-image: url('cloudback.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width:150px;
+    min-height:150px;
+}
+
+.input {
+    text-align: center;
+    margin: 100px 0;
+}
+
+input[type="text"] {
+    height: 50px;
+    width: 600px;
+    background: #e7e7e7;
+
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 10px;
+}
+
+input[type="submit"] {
+    height: 50px;
+    width: 100px;
+    background: #e7e7e7;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+}
+
+.display {
+    display:grid;
+    width:60%;
+    text-align: center;
+    margin:5rem 25rem;
+    background:rgba(236, 240, 241, 0.8);
+    padding:50px 25px;
+    color:#333;
+    position:relative;
+    box-shadow:18px 17px 0px -7px rgba(0,0,0,.1);
+    border-radius:8px;
+}
+.desc{
+    font-size:40px;
+    padding:20px;
+    text-align:center;
+
+}
+.temp{
+    font-size:30px;
+    padding:20px;
+    margin-top:0px;
+    text-align:center;
+}
+
+@media (max-width: 700px)
+{
+    .display{
+        max-width:80%;
+    }
+}
